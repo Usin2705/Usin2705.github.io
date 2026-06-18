@@ -295,7 +295,7 @@ h1 {
 }
 
 .portrait-wrap {
-  background: var(--surface);
+  background: #eef3ef;
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -307,7 +307,8 @@ h1 {
 .portrait-wrap img {
   aspect-ratio: 1;
   filter: saturate(0.96) contrast(1.04);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   width: 100%;
 }
 
